@@ -1,0 +1,108 @@
+@charset "UTF-8";
+/*configurando o cabeçalho*/
+.container{
+	background: url("../imagens/pilatestudio.png") no-repeat 10px;
+	background-color: #DDDDDD;
+	border-bottom: 1px #000000 solid;
+	margin: 0 auto;
+	width: 940px;
+	height: 200px;
+	position: relative;
+}
+
+/*configurando o menu opções*/
+.menu-opcoes ul{
+	font-size: 15px;
+	list-style: none;
+}
+
+.menu-opcoes a{
+	color: #000000;
+	text-decoration: none;
+}
+
+.menu-opcoes a:hover{
+	color: #FFFFFF;
+}
+
+.menu-opcoes ul li{
+	display: inline-block;
+	margin-left: 20px;
+	text-transform: uppercase;
+}
+
+.menu-opcoes ul li:hover{
+	background-color: #606060;
+	padding: 2px;
+}
+
+.menu-opcoes{
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;  
+}
+
+/*configurando o banner/logo*/
+figure.logo{
+	position: relative;
+}
+
+.banner-destaque{
+	margin-top: -20px;
+	margin-left: -30px; 
+}
+/* configurando menu-itens*/
+.item-servico{
+	position: relative;
+}
+
+.menu-itens{
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+/*configurando o menu de departamentos*/
+.menu-departamentos{
+	position: absolute;
+	bottom: 0;
+}
+
+.menu-departamentos ul li{
+	background-color: #DCDCDC;
+	color: black;
+	float: left;
+	width: 120px;
+	height: 40px;
+	display: inline-block;
+	text-align: center;
+	line-height: 40px;
+	font-size: 15px;
+}
+
+.menu-departamentos ul li:hover {
+	background-color: #696969;
+	color: white;
+}
+
+.menu-departamentos ul{
+	padding: 0;
+}
+
+.menu-departamentos ul ul{
+	display: none;
+}
+
+.menu-departamentos ul li:hover > ul{
+	display: block;
+}
+
+.sub-itens a{
+	text-decoration: none;
+	color: black;
+}
+
+.sub-itens a:hover {
+	color: white;
+}

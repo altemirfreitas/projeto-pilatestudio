@@ -1,0 +1,28 @@
+@charset "UTF-8";
+body{
+	border: 1px solid black;
+	width: 940px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.janela{
+	width: 940px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid gray;
+	box-shadow: 1px 1px 4px black;
+	background-color: #DDDDDD;
+/*	background: url("../imagens/pilatestudio.png") no-repeat;
+	background-size: 820px 200px;
+	position: relative; */
+}
+
+.janela form{
+	text-align: center;
+	float: none;
+}
+
+.janela h1{
+	text-align: center;
+}

@@ -1,0 +1,25 @@
+@charset "UTF-8";
+.tabela{
+	margin-left: auto;
+	margin-right: auto; 
+	border: 1px solid black;
+	width: 940px;
+	box-shadow: 1px 1px 4px black; 
+	border-spacing: 0px;
+}
+
+.tabela td{
+	border: 1px solid black;
+	padding: 10px;
+	text-align: center;
+}
+
+.tabela caption{
+	
+}
+
+.label{
+	color: black;
+	background: #606060;
+	font-weight: bolder;
+}

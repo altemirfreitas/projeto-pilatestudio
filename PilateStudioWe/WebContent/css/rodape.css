@@ -1,0 +1,13 @@
+@charset "UTF-8";
+.rodape{
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #DDDDDD;
+	border-top: 1px #000000 solid;
+	width: 940px;
+	height: 100px;	
+}
+
+.rodape p{
+	text-align: center;
+}

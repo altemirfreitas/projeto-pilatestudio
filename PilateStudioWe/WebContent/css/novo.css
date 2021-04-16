@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+.container{
+	background-color: #DDDDDD;
+	margin: -20px auto 0px auto;	
+}
+
+.logo{
+	margin-left: -40px;
+}
+
+.pesquisa{
+	margin: 0px auto 0px auto;
+}
